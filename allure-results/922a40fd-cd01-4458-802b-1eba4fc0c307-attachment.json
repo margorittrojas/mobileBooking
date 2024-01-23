@@ -1,0 +1,4 @@
+{
+  "using": "xpath",
+  "value": "//android.widget.CheckedTextView[@text=\"Stars (5 to 0)\"]"
+}
