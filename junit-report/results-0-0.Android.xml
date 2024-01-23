@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="Hotel reservation App Booking Android" timestamp="2024-01-23T11:33:03" time="120.785" tests="4" failures="0" errors="0" skipped="0">
+    <properties>
+      <property name="specId" value="0"/>
+      <property name="featureName" value="Hotel reservation - App Booking Android"/>
+      <property name="capabilities" value="emulator-5554.android.12.booking-com-32-9_apk"/>
+      <property name="featureFile" value="./features/mobile/12_booking.feature"/>
+    </properties>
+    <testcase classname="CucumberJUnitReport-emulator-5554.android.12.booking-com-32-9_apk.Hotel reservation App Booking Android" name="As booking user I select a destination and reserve a hotel" time="46.761">
+      <system-out><![CDATA[
+✅ Given I enter the Booking application✅ When I enter the destination "cusco" and reservation date "14 March 2024" and "16 March 2024"✅ And I enter the number of rooms "1" adults "1" and children "1"✅ And I tap the search button✅ Then I select the hotel
+]]></system-out>
+    </testcase>
+    <testcase classname="CucumberJUnitReport-emulator-5554.android.12.booking-com-32-9_apk.Hotel reservation App Booking Android" name="As booking user I want a hotel but the destination is not selected" time="8.198">
+      <system-out><![CDATA[
+✅ Given I enter the Booking application✅ When I tap the search button✅ Then I validate the message please enter your destination
+]]></system-out>
+    </testcase>
+    <testcase classname="CucumberJUnitReport-emulator-5554.android.12.booking-com-32-9_apk.Hotel reservation App Booking Android" name="As booking user I want a hotel but I select a destination that does not exist" time="13.494">
+      <system-out><![CDATA[
+✅ Given I enter the Booking application✅ When I enter a destination that does not exist "34567sd"✅ Then I validate the message Sorry but we cant find anything that matches your search
+]]></system-out>
+    </testcase>
+    <testcase classname="CucumberJUnitReport-emulator-5554.android.12.booking-com-32-9_apk.Hotel reservation App Booking Android" name="As booking user I select a hotel but select the sort by button" time="52.279">
+      <system-out><![CDATA[
+✅ Given I enter the Booking application✅ When I enter the destination "cusco" and reservation date "14 March 2024" and "16 March 2024"✅ And I enter the number of rooms "1" adults "1" and children "1"✅ And I tap the search button✅ Then I select the sort button and sort by "Stars (5 to 0)"
+]]></system-out>
+    </testcase>
+  </testsuite>
+</testsuites>
