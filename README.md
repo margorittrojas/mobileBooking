@@ -1,14 +1,19 @@
 # Application Information
-(Este proyecto fue ejecutado con apk)
-Repository (link) [App-Remesas_Android](https://bitbucket.org/proyectosy/challenge/branch/feature/bookinga)
-Commit Date: 23/01/2024
+Este proyecto fue ejecutado con apk "booking-com-32-9.apk"
 
 # Mobile test automation
 
-Mobile automation framework based on Cucumber - WebdriverIO - NodeJS - TypeScript - Axios - Allure Reports.
+Mobile automation framework based on Cucumber - WebdriverIO - NodeJS - TypeScript - Allure Reports.
+
+## PLANIFICACION
+- El proyecto se divide en Feature, StepDefinitions y Pages
+- Los casos han sido trabajados con examples para que la data no sea fija si no variable
+- El codigo esta compuesto por condicionales (Switch case)
+- Se utiliza el metodo scroll para la eleccion de fechas (checkin y checkout)
+- Se utilizo un emulador de android "Pixel 4 Api 31" con android 12.0
+- Los casos se ejecutan con el tag oficial "@hotelReservation"
 
 ## CASOS
-
 # @reservation
   Scenario Outline: As booking user, I select a destination and reserve a hotel
 
