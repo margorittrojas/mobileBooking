@@ -22,17 +22,17 @@ Mobile automation framework based on Cucumber - WebdriverIO - NodeJS - TypeScrip
 # @reservationNoDesti
   Scenario Outline: As booking user, I want a hotel but the destination is not selected
 
-  <img width="1439" alt="image" src="https://github.com/margorittrojas/mobileBooking/assets/123605259/e51c3a61-6fbd-421d-96fc-e6f27883f4d1">
+ <img width="1426" alt="image" src="https://github.com/margorittrojas/mobileBooking/assets/123605259/ee039a0c-fdd0-49eb-9792-6919b04a2606">
 
 # @reservationNoExistDesti
   Scenario Outline: As booking user, I want a hotel but I select a destination that does not exist
 
-  <img width="1439" alt="image" src="https://github.com/margorittrojas/mobileBooking/assets/123605259/573f846a-15d5-4b8f-906d-90b295eccf21">
+ <img width="1439" alt="image" src="https://github.com/margorittrojas/mobileBooking/assets/123605259/b119c6eb-05bb-4b12-a4ba-eb12fe5fcc45">
 
 # @reservationSort
   Scenario Outline: As booking user, I select a hotel but select the sort by button
 
- <img width="1433" alt="image" src="https://github.com/margorittrojas/mobileBooking/assets/123605259/ed22985d-605d-4e09-93da-8b7d0d80f0d0">
+<img width="1433" alt="image" src="https://github.com/margorittrojas/mobileBooking/assets/123605259/750d6b6c-cf1d-4deb-a6a3-a85a7b64bc21">
 
 
 ## OBSERVACION
