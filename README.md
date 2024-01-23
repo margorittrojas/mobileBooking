@@ -6,6 +6,7 @@ Este proyecto fue ejecutado con apk "booking-com-32-9.apk"
 Mobile automation framework based on Cucumber - WebdriverIO - NodeJS - TypeScript - Allure Reports.
 
 ## PLANIFICACION
+- Para la creación del proyecto se uso Visual Studio Code, Appium Server GUI y Appium Inspector
 - El proyecto se divide en Feature, StepDefinitions y Pages
 - Los casos han sido trabajados con examples para que la data no sea fija si no variable
 - El codigo esta compuesto por condicionales (Switch case)
